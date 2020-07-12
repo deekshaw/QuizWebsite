@@ -1,0 +1,52 @@
+var myQuestions = [
+    {
+        question: "Which of the following is the capital of Arunachal Pradesh?",
+        answers: {
+            a: 'Itanagar',
+            b: 'Dispur',
+            c: 'Imphal',
+            d: 'Panaji'
+        },
+        correctAnswer: 'a'
+    },
+    {
+        question: "Which is the largest coffee producing state of India?",
+        answers: {
+            a: 'Kerala',
+            b: 'Tamil Nadu',
+            c: 'Karnataka',
+            d: 'Assam'
+        },
+        correctAnswer: 'c'
+    },
+    {
+        question: "The lead character in the film 'The Bandit Queen' has been played by :",
+        answers: {
+            a: 'Rupa Ganguly',
+            b: 'Neena Gupta',
+            c: 'Shabana Azmi',
+            d: 'Seema Biswas'
+        },
+        correctAnswer: 'd'
+    },
+    {
+        question: "Who is the first Indian woman to win an Asian Games gold in 400m run?",
+        answers: {
+            a: 'M.L.Valsamma',
+            b: 'P.T.Usha',
+            c: 'Kamaljit Sandhu',
+            d: 'K.Malleshwari'
+        },
+        correctAnswer: 'c'
+    },
+    {
+        question: "Who is the father of Geometry?",
+        answers: {
+            a: 'Aristotle',
+            b: 'Euclid',
+            c: 'Pythagoras',
+            d: 'Kepler'
+        },
+        correctAnswer: 'b'
+    }
+];

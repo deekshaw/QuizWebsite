@@ -1,0 +1,133 @@
+.container-fluid{
+    background-color: #FFFFFF;
+}
+
+.super{
+    background-color: #FFFFFF;
+}
+
+.bg-1{
+    background-color: #ADDDCE;
+    padding:70px;
+    color : #FFFFFF;    
+}
+
+.bg-2{
+    background-color: #FFFFFF;
+    padding-top: 50px;
+    padding-left: 70px;
+}
+
+.heading{
+    color : #70AE98;
+    font-size: 100px;
+    font-family: "Gill Sans Extrabold", Times, serif;
+    font-weight: bold;
+}
+
+.subtext{
+    font-family: "Gill Sans Extrabold", Times, serif;
+    font-size: 35px;
+}
+
+.heading-2{
+    font-family: "Gill Sans Extrabold", Times, serif;
+    font-weight: bold;  
+    color : #70AE98;
+    font-size: 50px;
+}
+
+.button-sty{
+    padding-left: 70px;
+    padding-top: 40px;
+}
+
+.button-sty-in-1{
+    padding: 20px 40px 20px 40px;
+    font-size: 40xp;
+    background-color: #E6B655;
+    margin:30px;
+}
+
+.button-sty-in-2{
+    padding: 20px 40px 20px 40px;
+    font-size: 40xp;
+    background-color: #CA7E8D;
+    margin:30px;    
+}
+
+.question{
+    color: #4F4F4F;
+    font-size: 25px;
+    padding: 20px 0px 20px 0px;
+    font-family: "Georgia", Times, serif;
+    font-weight: bold;  
+}
+
+.options{
+    color: #828282;
+    font-family: "Georgia", Times, serif;
+    font-size: 22px;
+    padding: 10px 0px 10px 60px;
+}
+
+.modal-title{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Georgia", Times, serif;
+    color : #70AE98;
+}
+
+#correct{
+    color: #CA7E8D;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+.button-text{
+    color: #FFFFFF;
+    font-family: "Gill Sans Extrabold", Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#myModal{
+    margin-top: 250px;
+}
+
+.modal-close{
+    font-family: "Georgia", Times, serif;
+    color: #828282;
+}
+
+.reviewAns{
+    color: #CA7E8D;
+    font-family: "Georgia", Times, serif;
+    font-size: 25px;
+    padding: 10px 0px 10px 60px;
+    font-weight: bold;
+    display : none;
+}
+
+.userResultCorr{
+    display: none;
+    background-color: rgb(173,221,206,0.2);
+    color:#70AE98 ;
+    padding: 20px 0px 20px 30px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 20px;
+    font-family: "Georgia", Times, serif;
+}
+
+.userResultIncorr{
+    display: none;
+    background-color: rgb(202,126,141,0.2);
+    color: #CA7E8D;
+    padding: 20px 0px 20px 30px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 20px;
+    font-family: "Georgia", Times, serif;
+}

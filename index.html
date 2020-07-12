@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Take A Quiz - Quiz-Web</title>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+    
+    <!--Link to external Stylesheet-->
+    <link rel="stylesheet" href="styles/style.css">    
+</head>
+<body class="super" onload="buildQuiz()">
+    <!--Display Website Name-->
+    <div class="container-fluid bg-1 text-center row">
+        <h1 class="heading">Quiz-Web</h1>
+        <small class="subtext">Let's get quiz-ical</small>
+    </div>
+    
+    <!--Div where questions will be added after retrieving from JSON Object-->
+    <div class="container-fluid bg-2 row quiz">
+        <h2 class="heading-2">Take The Quiz</h2>
+        <div id="quiz">
+
+        </div>
+    </div>
+
+    <!--Result and Review Buttons-->
+    <div class="container-fluid button-sty">
+        <button id="results" class="btn-lg active button-sty-in-1" onclick="showResults()" data-toggle="modal" data-target="#myModal"><span class="button-text">Result</span></button>
+        <button id="reviewBtn" disabled class="btn-lg button-sty-in-2" onclick="showReview()"><span class="button-text">Review</span></button>    
+    </div>
+
+    
+    <!-- Modal To Display Score -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+    
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Your Score</h4>
+            </div>
+            <div class="modal-body">
+            <p id="correct"></p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-default modal-close" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    
+        </div>
+    </div>  
+    
+    
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Local Javascript Link containing function implementations-->
+    <script src="quiz.js"></script>
+
+</body>
+</html>
